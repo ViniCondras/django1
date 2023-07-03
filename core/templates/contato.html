@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Django 1 - Contato</title>
+</head>
+<body>
+<h1>Contato</h1>
+{% for cliente in clientes %}
+<p> Nome: {{cliente.nome}}</p>
+{% endfor %}
+</body>
+</html>
